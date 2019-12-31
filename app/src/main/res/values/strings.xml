@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Architectures_Practise</string>
+    <string name="error_get_countries">unable to get countries, please try again later.</string>
 </resources>
