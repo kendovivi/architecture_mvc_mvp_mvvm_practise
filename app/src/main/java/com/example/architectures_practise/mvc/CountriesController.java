@@ -37,8 +37,15 @@ public class CountriesController {
 
                     @Override
                     public void onError(Throwable e) {
-
+                        view.onError();
                     }
                 });
+    }
+
+    /**
+     * もう一度データを読み込み
+     */
+    public void doRefresh() {
+        fetchCountries();
     }
 }
